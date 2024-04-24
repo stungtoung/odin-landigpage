@@ -40,9 +40,11 @@ button {
 }
 
 img {
-    width: 500px;
-    height: auto;
+    width: 700px;
+    height: 250px;
     margin-left: 48px;
+    object-fit: cover;
+    
 }
 
 .herosub {
@@ -94,6 +96,29 @@ a,
     font-weight: 900;
 }
 
+.callbody {
+    background-color: #3882f6;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.calltxt {
+    color: #F9FAF8;
+
+}
+.calltxth {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.callb {
+    border: 1px solid #F9FAF8;
+    font-weight: 900;
+    
+}
 .footer {
     display: flex;
     justify-content: center;
