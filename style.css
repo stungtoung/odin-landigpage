@@ -39,7 +39,7 @@ button {
     padding: 100px 0;
 }
 
-img {
+.herodog {
     width: 700px;
     height: 250px;
     margin-left: 48px;
@@ -96,9 +96,70 @@ a,
     font-weight: 900;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 200px;
+}
+
+.infoh {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.card {
+   max-width: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cardimg {
+    object-fit: fill;
+    border: 6px solid #3882f6;
+    border-radius: 6px;
+}
+
+.cardtxt {
+    text-align: center;
+}
+
+.qt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 250px;
+
+}
+
+.qtt {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    align-self: flex-start;
+    font-weight: 300;
+}
+
+.qts {
+    font-size: 24px;
+    align-self: flex-end;
+}
+
+.call {
+    padding: 64px 264px;
+}
+
 .callbody {
     background-color: #3882f6;
-    border-radius: 16px;
+    border-radius: 6px;
     padding: 32px;
     display: flex;
     justify-content: space-around;
@@ -117,6 +178,7 @@ a,
 .callb {
     border: 1px solid #F9FAF8;
     font-weight: 900;
+    align-self: center;
     
 }
 .footer {
